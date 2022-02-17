@@ -1,0 +1,224 @@
+@font-face {
+  font-family: "HelveticaNeueBoldCondensed";
+  src: url("../fonts/HelveticaNeueBoldCondensed.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "HelveticaNeueCyr-Bold";
+  src: url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "HelveticaNeueCyr-Italic";
+  src: url("../fonts/HelveticaNeueCyr-Italic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "HelveticaNeueCyr-LightItalic";
+  src: url("../fonts/HelveticaNeueCyr-LightItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "HelveticaNeueCyr-Roman";
+  src: url("../fonts/HelveticaNeueCyr-Roman.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "HelveticaNeueCyr-Thin";
+  src: url("../fonts/HelveticaNeueCyr-Thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "HelveticaNeueCyr-ThinItalic";
+  src: url("../fonts/HelveticaNeueCyr-ThinItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "HelveticaNeueCyr-UltraLight";
+  src: url("../fonts/HelveticaNeueCyr-UltraLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "HelveticaNeueCyr-UltraLightItalic";
+  src: url("../fonts/HelveticaNeueCyr-UltraLightItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #7DA2C7;
+  padding-bottom: 30px; }
+
+.d-flex {
+  display: flex;
+  justify-content: space-between; }
+
+.container {
+  max-width: 1000px;
+  margin: auto; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+header {
+  background-color: #3A5A7A;
+  height: 100px;
+  box-sizing: border-box;
+  padding-top: 30px; }
+  header div {
+    text-align: center; }
+    header div h2 {
+      transition: 0.7s; }
+      header div h2 a {
+        color: #9DCCFA;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 40px;
+        transition: 0.7s; }
+        header div h2 a:hover {
+          color: white; }
+
+.nav-sec {
+  padding: 20px 5px 20px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center; }
+  .nav-sec h2 {
+    color: #4D647A;
+    font-size: 28px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 15px; }
+  .nav-sec .nav-ul {
+    width: 25%; }
+    .nav-sec .nav-ul li {
+      padding-bottom: 10px;
+      margin-bottom: 10px; }
+      .nav-sec .nav-ul li a {
+        color: #9DCCFA;
+        font-size: 22px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+        transition: 0.7s; }
+        .nav-sec .nav-ul li a:hover {
+          color: white; }
+  .nav-sec .main-content {
+    width: 75%; }
+    .nav-sec .main-content img {
+      width: 100%;
+      margin-bottom: 20px; }
+    .nav-sec .main-content p {
+      color: white;
+      font-family: sans-serif;
+      font-size: 20px; }
+
+.ghgh {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  color: #3A5A7A;
+  font-size: 40px;
+  margin-bottom: 20px; }
+
+.white-m-text {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px; }
+
+.cat-line {
+  width: 100%;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+  transition: 0.7s; }
+  .cat-line a {
+    width: 30%;
+    display: block; }
+    .cat-line a .item {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px;
+      background-color: #53A7FB;
+      transition: 0.7s; }
+      .cat-line a .item h4 {
+        color: #9DCCFA;
+        font-weight: bold;
+        font-family: "Bebas Neue", sans-serif;
+        transition: 0.7s;
+        font-size: 30px;
+        margin-bottom: 8px; }
+      .cat-line a .item h5 {
+        color: #9DCCFA;
+        font-weight: bold;
+        font-family: "Bebas Neue", sans-serif;
+        transition: 0.7s;
+        font-size: 30px; }
+      .cat-line a .item img {
+        width: 100%;
+        filter: grayscale(100%);
+        transition: 0.7s; }
+      .cat-line a .item:hover img {
+        filter: grayscale(0); }
+      .cat-line a .item:hover h4 {
+        color: #53A7FB; }
+      .cat-line a .item:hover h5 {
+        color: #3A5A7A; }
+  .cat-line .cat-item {
+    width: 48.5%;
+    height: 485px;
+    background-color: #3A5A7A;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center; }
+    .cat-line .cat-item img {
+      margin-top: 25px;
+      width: 100%;
+      height: 350px;
+      transition: 0.7s;
+      margin-bottom: 50px; }
+    .cat-line .cat-item a h3 {
+      color: #9DCCFA;
+      font-size: 30px;
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: bold; }
+    .cat-line .cat-item:hover a h3 {
+      color: #53A7FB; }
+
+.item-line {
+  margin-bottom: 30px; }
+  .item-line .item {
+    text-align: center;
+    width: 30%;
+    border: #3A5A7A solid 2px;
+    border-radius: 15px;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 5px; }
+    .item-line .item img {
+      width: 100%;
+      margin-bottom: 20px; }
+    .item-line .item h5 {
+      color: #3A5A7A;
+      font-size: 30px;
+      font-family: "Adobe Caslon Pro Bold", sans-serif; }
+
+.buy-button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px 0;
+  border: #3A5A7A solid 2px;
+  border-radius: 15px;
+  background-color: transparent;
+  color: #3A5A7A;
+  display: block;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  transition: 0.7s; }
+  .buy-button:hover {
+    background-color: #3A5A7A;
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */
